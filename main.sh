@@ -18,7 +18,7 @@ echo "$password" | sudo -S cp -r /lib64/* /$chroot_name/lib64
 echo "$password" | sudo -S cp -r /lib/* /$chroot_name/lib
 echo "$password" | sudo -S cp -r /usr/bin/* /$chroot_name/usr/bin
 echo "$password" | sudo -S cp -r /bin/* /$chroot_name/bin
-echo "$password" | sudo -S cp -r /usr/lib/x86_64-linux-gnu/zsh/* /$chroot_name/usr/lib/x86_64-linux-gnu/
+echo "$password" | sudo -S cp -r /usr/lib/x86_64-linux-gnu/zsh/* /$chroot_name/usr/lib/x86_64-linux-gnu/zsh/
 echo "$password" | sudo -S echo "PS1='chroot:$chroot_name [#] '" >> /$chroot_name/etc/profile
 echo "$password" | sudo -S echo "PS1='chroot:$chroot_name [#] '" >> /$chroot_name/etc/zshrc
 echo "$password" | sudo -S echo "PS1='chroot:$chroot_name [#] '" >> /$chroot_name/etc/bash.bashrc
