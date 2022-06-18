@@ -26,6 +26,7 @@ echo "$password" | sudo -S cp -r /var/www/html/* /$chroot_name/var/www/html/
 
 echo "============================================================"
 echo "Chroot has been created in /$chroot_name"
+echo "You can use chroot by command 'chroot /$chroot_name /bin/bash' or 'chroot /$chroot_name'"
 read -p "Enter to exit"
 exit 1
 echo "============================================================"
